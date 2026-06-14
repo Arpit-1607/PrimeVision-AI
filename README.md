@@ -57,22 +57,23 @@ PrimeVision AI is an intelligent movie recommendation system inspired by Amazon 
 ```text
 PrimeVision-AI
 │
-├── app.py
-├── recommendation_engine.py
-├── style.css
-├── requirements.txt
-├── README.md
-│
-├── data
-│     └── movies.csv
-│
-├── screenshots
-│     ├── genre_selection.png
-│     ├── recommendations.png
-│     └── graph.png
-│
-├── assets
-└── reports
+├── PrimeVision-AI recommendation
+│     ├── app.py
+│     ├── recommendation_engine.py
+│     ├── style.css
+│     ├── requirements.txt
+│     ├── README.md
+│     │
+│     ├── data
+│     │     └── movies.csv
+│     │
+│     ├── screenshots
+│     │     ├── genre_selection.png
+│     │     ├── recommendation.png
+│     │     └── Graph.png
+│     │
+│     ├── assets
+│     └── reports
 ```
 
 ---
@@ -110,7 +111,7 @@ python -m streamlit run app.py
 1. User selects preferred genres.
 2. Movie genres are converted into vectors using TF-IDF Vectorization.
 3. Cosine Similarity calculates similarity scores.
-4. The system recommends the most relevant movies.
+4. Top matching movies are recommended.
 5. Results are displayed with posters, ratings, and match percentages.
 
 ---
@@ -121,7 +122,7 @@ python -m streamlit run app.py
 
 Users can select genres such as Action, Adventure, Sci-Fi, Horror, Comedy, Romance, Thriller, and Drama to receive personalized recommendations.
 
-![Genre Selection](screenshots/genre_selection.png)
+![Genre Selection](PrimeVision-AI%20recommendation/screenshots/genre_selection.png)
 
 ---
 
@@ -129,7 +130,7 @@ Users can select genres such as Action, Adventure, Sci-Fi, Horror, Comedy, Roman
 
 The recommendation engine suggests the most relevant movies based on genre similarity and displays ratings and match percentages.
 
-![Recommendations](screenshots/recommendations.png)
+![Recommendations](PrimeVision-AI%20recommendation/screenshots/recommendation.png)
 
 ---
 
@@ -137,7 +138,7 @@ The recommendation engine suggests the most relevant movies based on genre simil
 
 Interactive Plotly visualization showing recommendation scores for suggested movies.
 
-![Graph](screenshots/graph.png)
+![Recommendation Graph](PrimeVision-AI%20recommendation/screenshots/Graph.png)
 
 ---
 
@@ -164,4 +165,6 @@ GitHub: https://github.com/Arpit-1607
 
 ---
 
-### ⭐ If you found this project useful, consider giving it a star!
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
