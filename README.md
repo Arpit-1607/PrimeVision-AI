@@ -8,15 +8,15 @@ PrimeVision AI is an intelligent movie recommendation system inspired by Amazon 
 
 ## 🚀 Features
 
-* 🎥 Amazon Prime inspired UI
-* 🔍 Search movies by genres
-* 🎭 Genre-based recommendations
-* 🤖 AI-powered recommendation engine
-* ⭐ Match score percentage
-* 🖼 Movie posters display
-* 📊 Interactive charts using Plotly
-* 🌙 Dark theme interface
-* ⚡ Fast and lightweight Streamlit application
+* 🎥 Amazon Prime Inspired User Interface
+* 🔍 Search Movies by Genres
+* 🎭 Genre-Based Recommendations
+* 🤖 AI-Powered Recommendation Engine
+* ⭐ Match Score Percentage
+* 🖼 Movie Posters Display
+* 📊 Interactive Charts Using Plotly
+* 🌙 Dark Theme Interface
+* ⚡ Fast and Lightweight Streamlit Application
 
 ---
 
@@ -54,7 +54,7 @@ PrimeVision AI is an intelligent movie recommendation system inspired by Amazon 
 
 ## 📂 Project Structure
 
-```
+```text
 PrimeVision-AI
 │
 ├── app.py
@@ -66,9 +66,13 @@ PrimeVision-AI
 ├── data
 │     └── movies.csv
 │
+├── screenshots
+│     ├── genre_selection.png
+│     ├── recommendations.png
+│     └── graph.png
+│
 ├── assets
-├── reports
-└── screenshots
+└── reports
 ```
 
 ---
@@ -103,28 +107,49 @@ python -m streamlit run app.py
 
 ## 🎯 How It Works
 
-1. User selects genres.
-2. The recommendation engine converts movie genres into vectors using TF-IDF.
+1. User selects preferred genres.
+2. Movie genres are converted into vectors using TF-IDF Vectorization.
 3. Cosine Similarity calculates similarity scores.
-4. Top matching movies are displayed with posters and match percentages.
+4. The system recommends the most relevant movies.
+5. Results are displayed with posters, ratings, and match percentages.
 
 ---
 
 ## 📸 Screenshots
 
-Add screenshots of the application inside the `screenshots/` folder.
+### 🎭 Genre Selection
+
+Users can select genres such as Action, Adventure, Sci-Fi, Horror, Comedy, Romance, Thriller, and Drama to receive personalized recommendations.
+
+![Genre Selection](screenshots/genre_selection.png)
+
+---
+
+### 🔥 AI Movie Recommendations
+
+The recommendation engine suggests the most relevant movies based on genre similarity and displays ratings and match percentages.
+
+![Recommendations](screenshots/recommendations.png)
+
+---
+
+### 📊 Recommendation Score Analysis
+
+Interactive Plotly visualization showing recommendation scores for suggested movies.
+
+![Graph](screenshots/graph.png)
 
 ---
 
 ## 🔮 Future Improvements
 
-* Similar movie search
-* Watchlist feature
-* Trending movies section
-* Voice search
-* AI chatbot
-* Mood-based recommendation
-* TMDB API integration
+* Similar Movie Search
+* Watchlist Feature
+* Trending Movies Section
+* Voice Search
+* AI Chatbot
+* Mood-Based Recommendation
+* TMDB API Integration
 * Sentence Transformers
 * FAISS Vector Search
 * Gemini API Integration
@@ -133,11 +158,10 @@ Add screenshots of the application inside the `screenshots/` folder.
 
 ## 👨‍💻 Author
 
-**Arpit Yadav**
+### Arpit Yadav
 
 GitHub: https://github.com/Arpit-1607
 
 ---
 
 ### ⭐ If you found this project useful, consider giving it a star!
-
