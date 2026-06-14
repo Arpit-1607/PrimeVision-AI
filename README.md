@@ -118,21 +118,7 @@ python -m streamlit run app.py
 
 ## 📸 Screenshots
 
-### 🎭 Genre Selection
 
-![Genre Selection](https://raw.githubusercontent.com/Arpit-1607/PrimeVision-AI/main/screenshots/genre_selection.png)
-
----
-
-### 🔥 AI Movie Recommendations
-
-![Recommendations](https://raw.githubusercontent.com/Arpit-1607/PrimeVision-AI/main/screenshots/recommendation.png)
-
----
-
-### 📊 Recommendation Score Analysis
-
-![Graph](https://raw.githubusercontent.com/Arpit-1607/PrimeVision-AI/main/screenshots/Graph.png)
 
 ## 🔮 Future Improvements
 
