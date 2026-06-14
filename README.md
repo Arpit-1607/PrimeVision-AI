@@ -120,27 +120,19 @@ python -m streamlit run app.py
 
 ### 🎭 Genre Selection
 
-Users can select genres such as Action, Adventure, Sci-Fi, Horror, Comedy, Romance, Thriller, and Drama to receive personalized recommendations.
-
-![Genre Selection](PrimeVision-AI%20recommendation/screenshots/genre_selection.png)
+![Genre Selection](https://raw.githubusercontent.com/Arpit-1607/PrimeVision-AI/main/screenshots/genre_selection.png)
 
 ---
 
 ### 🔥 AI Movie Recommendations
 
-The recommendation engine suggests the most relevant movies based on genre similarity and displays ratings and match percentages.
-
-![Recommendations](PrimeVision-AI%20recommendation/screenshots/recommendation.png)
+![Recommendations](https://raw.githubusercontent.com/Arpit-1607/PrimeVision-AI/main/screenshots/recommendation.png)
 
 ---
 
 ### 📊 Recommendation Score Analysis
 
-Interactive Plotly visualization showing recommendation scores for suggested movies.
-
-![Recommendation Graph](PrimeVision-AI%20recommendation/screenshots/Graph.png)
-
----
+![Graph](https://raw.githubusercontent.com/Arpit-1607/PrimeVision-AI/main/screenshots/Graph.png)
 
 ## 🔮 Future Improvements
 
