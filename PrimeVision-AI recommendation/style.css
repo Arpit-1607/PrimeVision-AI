@@ -1,0 +1,147 @@
+
+body {
+    background: linear-gradient(
+        180deg,
+        #0F171E 0%,
+        #15202B 50%,
+        #1B2531 100%
+    );
+}
+
+.main {
+    background: linear-gradient(
+        180deg,
+        #0F171E 0%,
+        #15202B 50%,
+        #1B2531 100%
+    );
+}
+
+
+.stApp {
+    background: linear-gradient(
+        180deg,
+        #0F171E 0%,
+        #15202B 50%,
+        #1B2531 100%
+    );
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+.stTextInput input {
+    background-color: #1A242F !important;
+    color: white !important;
+    border-radius: 10px;
+    border: 1px solid #00A8E1;
+}
+
+div.stButton > button {
+
+    background: linear-gradient(
+        90deg,
+        #00A8E1,
+        #0086B3
+    );
+
+    color: white;
+
+    border-radius: 12px;
+
+    height: 55px;
+
+    width: 220px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    border: none;
+
+    transition: 0.3s;
+}
+
+div.stButton > button:hover {
+
+    background: linear-gradient(
+        90deg,
+        #1399D6,
+        #00A8E1
+    );
+
+    transform: scale(1.05);
+
+}
+
+.movie-card {
+
+    background: linear-gradient(
+        180deg,
+        #1A242F,
+        #223040
+    );
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    border: 1px solid rgba(0,168,225,0.2);
+
+    box-shadow:
+        0px 4px 20px rgba(0,168,225,0.25);
+
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+
+    transform: scale(1.03);
+
+    box-shadow:
+        0px 6px 25px rgba(0,168,225,0.5);
+
+}
+
+section[data-testid="stSidebar"] {
+
+    background-color: #0F171E;
+
+}
+
+div[data-testid="stAlert"] {
+
+    background-color: #16324F;
+
+    color: white;
+
+}
+
+
+.js-plotly-plot {
+
+    background-color: transparent !important;
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0F171E;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00A8E1;
+    border-radius: 10px;
+}
+
+a {
+    color: #00A8E1;
+}
+
+p, label {
+    color: white !important;
+}
